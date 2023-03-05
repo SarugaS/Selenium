@@ -24,7 +24,7 @@ public class EditPractice {
 		AppendBox.sendKeys(" erode");
 		
 		
-		WebElement disabledbox = driver.findElement(By.id("j_idt88:j_idt93"));
+		WebElement disabledbox = driver.findElement(By.id("j_idt88:j_idt93"));    //check whether the text box is enabled
 		boolean isenabled= disabledbox.isEnabled();
 		System.out.println(isenabled);
 		
