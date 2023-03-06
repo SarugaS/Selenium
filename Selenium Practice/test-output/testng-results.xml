@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T01:49:53 IST" name="Default suite" finished-at="2023-03-07T01:49:54 IST" duration-ms="113">
+    <groups>
+    </groups>
+    <test started-at="2023-03-07T01:49:53 IST" name="Default test" finished-at="2023-03-07T01:49:54 IST" duration-ms="113">
+      <class name="testNG.DependenciesManagement">
+        <test-method signature="GCEOrdinerylevel()[pri:0, instance:testNG.DependenciesManagement@5e316c74]" started-at="2023-03-07T01:49:54 IST" name="GCEOrdinerylevel" finished-at="2023-03-07T01:49:54 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCEOrdinerylevel -->
+        <test-method signature="GCEAdvancedlevel()[pri:0, instance:testNG.DependenciesManagement@5e316c74]" started-at="2023-03-07T01:49:54 IST" name="GCEAdvancedlevel" finished-at="2023-03-07T01:49:54 IST" depends-on-methods="testNG.DependenciesManagement.GCEOrdinerylevel" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCEAdvancedlevel -->
+        <test-method signature="University()[pri:0, instance:testNG.DependenciesManagement@5e316c74]" started-at="2023-03-07T01:49:54 IST" name="University" finished-at="2023-03-07T01:49:54 IST" depends-on-methods="testNG.DependenciesManagement.GCEAdvancedlevel" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- University -->
+      </class> <!-- testNG.DependenciesManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
