@@ -1,8 +1,6 @@
 package SeleniumAdvanced;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -72,7 +70,7 @@ public class DynamicTablesExamples {
 		List<WebElement> CompanyWithLowerTradeVolume = driver.findElements(By.xpath("//td[normalize-space()="+"\""+StringLowerValue+"\""+"]//preceding::td[3]"));
 		
 		/*the above x-path is considering 1's in the share volume column also 
-		 so we are getting other number values which has the same x-path *****NOTE: x-path should be rewritten*/
+		 so we are getting other number values which has the same x-path NOTE: x-path should be rewritten*/
 		 
 		
 		List<String> companylist = new ArrayList<String>();             //empty string list to store company name
