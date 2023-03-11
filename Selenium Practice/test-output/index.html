@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Test_Suite" class="navigator-link ">
-                    <span>2 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,22 +104,7 @@
                     <div class="method-list-content passed suite-Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="testNG.GroupingExamples" class="method navigator-link" hash-for-method="Moto1">Moto1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="testNG.GroupingExamples" class="method navigator-link" hash-for-method="Moto2">Moto2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="testNG.GroupingExamples" class="method navigator-link" hash-for-method="VIVO1">VIVO1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="testNG.GroupingExamples" class="method navigator-link" hash-for-method="VIVO2">VIVO2</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite" title="testNG.ParameterizationExample" class="method navigator-link" hash-for-method="printname(Saru)">printname(Saru)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_Suite -->
@@ -137,35 +122,15 @@
           <div class="suite-Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testNG.GroupingExamples</span>
+              <span class="class-name">testNG.ParameterizationExample</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Moto1">
-                  </a> <!-- Moto1 -->
-                  <span class="method-name">Moto1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Moto2">
-                  </a> <!-- Moto2 -->
-                  <span class="method-name">Moto2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VIVO1">
-                  </a> <!-- VIVO1 -->
-                  <span class="method-name">VIVO1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VIVO2">
-                  </a> <!-- VIVO2 -->
-                  <span class="method-name">VIVO2</span>
+                  <a name="printname(Saru)">
+                  </a> <!-- printname(Saru) -->
+                  <span class="method-name">printname</span>
+                  <span class="parameters">(Saru)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,14 +146,9 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test cases&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;VIVO&quot;/&gt;
-        &lt;include name=&quot;Moto&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
+    &lt;parameter name=&quot;Name&quot; value=&quot;Saru&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testNG.GroupingExamples&quot;/&gt;
+      &lt;class name=&quot;testNG.ParameterizationExample&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test cases --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite --&gt;
@@ -212,30 +172,6 @@
             <span class="header-content">Groups for Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">Moto</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">Moto1</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">Moto2</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">VIVO</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">VIVO1</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">VIVO2</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Test_Suite" class="panel">
@@ -252,28 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Moto1')
-data.setCell(0, 2, 'testNG.GroupingExamples')
-data.setCell(0, 3, 16);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VIVO2')
-data.setCell(1, 2, 'testNG.GroupingExamples')
-data.setCell(1, 3, 3);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Moto2')
-data.setCell(2, 2, 'testNG.GroupingExamples')
-data.setCell(2, 3, 2);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VIVO1')
-data.setCell(3, 2, 'testNG.GroupingExamples')
-data.setCell(3, 3, 1);
+data.setCell(0, 1, 'printname')
+data.setCell(0, 2, 'testNG.ParameterizationExample')
+data.setCell(0, 3, 14);
 window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-Test_Suite">
               </div> <!-- times-div-Test_Suite -->
             </div> <!-- times-div -->
@@ -288,22 +212,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testNG.GroupingExamples</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Lenovo1</span>
-                <br/>
-                <span class="ignored-method-name">Apple2</span>
-                <br/>
-                <span class="ignored-method-name">Apple1</span>
-                <br/>
-                <span class="ignored-method-name">Lenovo2</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Test_Suite" class="panel">
@@ -312,22 +223,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testNG.GroupingExamples</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testNG.ParameterizationExample</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Moto1</span>
+                <span class="method-name">printname(Saru)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Moto2</span>
-                <span class="method-start">19 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">VIVO1</span>
-                <span class="method-start">24 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">VIVO2</span>
-                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

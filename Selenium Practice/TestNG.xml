@@ -3,15 +3,10 @@
 <suite name= "Test Suite" >
 <test name= "Test cases">
 
-<groups>
-<run>
-<include name="VIVO"></include>
-<include name="Moto"></include>
-</run>
-</groups>
+<parameter name="Name" value="Saru"></parameter>
 
 <classes>
-<class name = "testNG.GroupingExamples"></class>
+<class name = "testNG.ParameterizationExample"></class>
 </classes>
 </test>
 </suite>
