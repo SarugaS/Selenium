@@ -1,87 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="18" passed="17" failed="0" skipped="0">
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-11T12:51:38 IST" name="Test Suite" finished-at="2023-03-11T12:51:38 IST" duration-ms="178">
+  <suite started-at="2023-03-11T14:08:25 IST" name="Test Suite" finished-at="2023-03-11T14:08:25 IST" duration-ms="87">
     <groups>
+      <group name="VIVO">
+        <method signature="GroupingExamples.VIVO1()[pri:0, instance:testNG.GroupingExamples@56528192]" name="VIVO1" class="testNG.GroupingExamples"/>
+        <method signature="GroupingExamples.VIVO2()[pri:0, instance:testNG.GroupingExamples@56528192]" name="VIVO2" class="testNG.GroupingExamples"/>
+      </group> <!-- VIVO -->
+      <group name="Moto">
+        <method signature="GroupingExamples.Moto1()[pri:0, instance:testNG.GroupingExamples@56528192]" name="Moto1" class="testNG.GroupingExamples"/>
+        <method signature="GroupingExamples.Moto2()[pri:0, instance:testNG.GroupingExamples@56528192]" name="Moto2" class="testNG.GroupingExamples"/>
+      </group> <!-- Moto -->
     </groups>
-    <test started-at="2023-03-11T12:51:38 IST" name="Test cases" finished-at="2023-03-11T12:51:38 IST" duration-ms="178">
-      <class name="testNG.DependenciesManagement">
-        <test-method signature="GCEOrdinerylevel()[pri:0, instance:testNG.DependenciesManagement@6e0dec4a]" started-at="2023-03-11T12:51:38 IST" name="GCEOrdinerylevel" finished-at="2023-03-11T12:51:38 IST" duration-ms="12" status="PASS">
+    <test started-at="2023-03-11T14:08:25 IST" name="Test cases" finished-at="2023-03-11T14:08:25 IST" duration-ms="87">
+      <class name="testNG.GroupingExamples">
+        <test-method signature="Moto1()[pri:0, instance:testNG.GroupingExamples@56528192]" started-at="2023-03-11T14:08:25 IST" name="Moto1" finished-at="2023-03-11T14:08:25 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GCEOrdinerylevel -->
-        <test-method signature="GCEAdvancedlevel()[pri:0, instance:testNG.DependenciesManagement@6e0dec4a]" started-at="2023-03-11T12:51:38 IST" name="GCEAdvancedlevel" finished-at="2023-03-11T12:51:38 IST" depends-on-methods="testNG.DependenciesManagement.GCEOrdinerylevel" duration-ms="1" status="PASS">
+        </test-method> <!-- Moto1 -->
+        <test-method signature="Moto2()[pri:0, instance:testNG.GroupingExamples@56528192]" started-at="2023-03-11T14:08:25 IST" name="Moto2" finished-at="2023-03-11T14:08:25 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GCEAdvancedlevel -->
-        <test-method signature="University()[pri:0, instance:testNG.DependenciesManagement@6e0dec4a]" started-at="2023-03-11T12:51:38 IST" name="University" finished-at="2023-03-11T12:51:38 IST" depends-on-methods="testNG.DependenciesManagement.GCEAdvancedlevel" duration-ms="4" status="PASS">
+        </test-method> <!-- Moto2 -->
+        <test-method signature="VIVO1()[pri:0, instance:testNG.GroupingExamples@56528192]" started-at="2023-03-11T14:08:25 IST" name="VIVO1" finished-at="2023-03-11T14:08:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- University -->
-      </class> <!-- testNG.DependenciesManagement -->
-      <class name="testNG.SkipATestCase">
-        <test-method signature="StartTheCar()[pri:0, instance:testNG.SkipATestCase@7c0c77c7]" started-at="2023-03-11T12:51:38 IST" name="StartTheCar" finished-at="2023-03-11T12:51:38 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- VIVO1 -->
+        <test-method signature="VIVO2()[pri:0, instance:testNG.GroupingExamples@56528192]" started-at="2023-03-11T14:08:25 IST" name="VIVO2" finished-at="2023-03-11T14:08:25 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StartTheCar -->
-        <test-method signature="FirstGear()[pri:1, instance:testNG.SkipATestCase@7c0c77c7]" started-at="2023-03-11T12:51:38 IST" name="FirstGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstGear -->
-        <test-method signature="SecondGear()[pri:2, instance:testNG.SkipATestCase@7c0c77c7]" started-at="2023-03-11T12:51:38 IST" name="SecondGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SecondGear -->
-        <test-method signature="ThirdGear()[pri:3, instance:testNG.SkipATestCase@7c0c77c7]" started-at="2023-03-11T12:51:38 IST" name="ThirdGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ThirdGear -->
-        <test-method signature="FourthGear()[pri:4, instance:testNG.SkipATestCase@7c0c77c7]" started-at="2023-03-11T12:51:38 IST" name="FourthGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FourthGear -->
-      </class> <!-- testNG.SkipATestCase -->
-      <class name="testNG.SampleTestCase">
-        <test-method signature="firstTestCase()[pri:0, instance:testNG.SampleTestCase@48aaecc3]" started-at="2023-03-11T12:51:38 IST" name="firstTestCase" finished-at="2023-03-11T12:51:38 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstTestCase -->
-        <test-method signature="forthTestCase()[pri:0, instance:testNG.SampleTestCase@48aaecc3]" started-at="2023-03-11T12:51:38 IST" name="forthTestCase" finished-at="2023-03-11T12:51:38 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forthTestCase -->
-        <test-method signature="secondTestCase()[pri:0, instance:testNG.SampleTestCase@48aaecc3]" started-at="2023-03-11T12:51:38 IST" name="secondTestCase" finished-at="2023-03-11T12:51:38 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secondTestCase -->
-        <test-method signature="thirdTestCase()[pri:0, instance:testNG.SampleTestCase@48aaecc3]" started-at="2023-03-11T12:51:38 IST" name="thirdTestCase" finished-at="2023-03-11T12:51:38 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- thirdTestCase -->
-      </class> <!-- testNG.SampleTestCase -->
-      <class name="testNG.PriorityExample">
-        <test-method signature="StartTheCar()[pri:0, instance:testNG.PriorityExample@60d8c9b7]" started-at="2023-03-11T12:51:38 IST" name="StartTheCar" finished-at="2023-03-11T12:51:38 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StartTheCar -->
-        <test-method signature="FirstGear()[pri:1, instance:testNG.PriorityExample@60d8c9b7]" started-at="2023-03-11T12:51:38 IST" name="FirstGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstGear -->
-        <test-method signature="SecondGear()[pri:2, instance:testNG.PriorityExample@60d8c9b7]" started-at="2023-03-11T12:51:38 IST" name="SecondGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SecondGear -->
-        <test-method signature="ThirdGear()[pri:3, instance:testNG.PriorityExample@60d8c9b7]" started-at="2023-03-11T12:51:38 IST" name="ThirdGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ThirdGear -->
-        <test-method signature="FourthGear()[pri:4, instance:testNG.PriorityExample@60d8c9b7]" started-at="2023-03-11T12:51:38 IST" name="FourthGear" finished-at="2023-03-11T12:51:38 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FourthGear -->
-      </class> <!-- testNG.PriorityExample -->
+        </test-method> <!-- VIVO2 -->
+      </class> <!-- testNG.GroupingExamples -->
     </test> <!-- Test cases -->
   </suite> <!-- Test Suite -->
 </testng-results>
